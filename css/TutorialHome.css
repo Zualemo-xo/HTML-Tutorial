@@ -1,7 +1,10 @@
 *{
+  transition: 0.5s;
   margin-bottom: : 1px;
   background-size: cover;
   font-family: 'Cormorant Garamond';
+  letter-spacing: 0.5px;
+
 }
 body{
 
@@ -29,7 +32,7 @@ body{
   text-shadow: 2px 1px 1px #ccc;
 
 }
-h1,footer{
+h1,h2,footer{
   background-image: radial-gradient(circle, #2193b0, #6dd5ed);
   padding: 10px;
   text-align: center;
@@ -58,18 +61,31 @@ h3~p{
   text-shadow: 2px 1px 1px #ccc;
 }
 
-a[href]{
-  color: green;
-  background-image: linear-gradient(to right,#ddd6f3,#faaca8);
-  box-shadow: 2px 2px 4px #000000;
-  opacity:0.9;
-  text-align:center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+#nav{
 
-}
+    text-decoration: none;
+    line-height: 100px;
+    padding:35px 10px;
+    letter-spacing: 0.5px;
+    transition: 0.7s;
+    border-radius: 5px;
+    border-width: 3px;
+    padding:15px 15px;
+    background-color: black ;
+    color:white;
+
+  }
+
+  a[href]:hover{
+    border-radius: 5px;
+    border-width: 3px;
+    color:black !important;
+    background-color: #00CED1 !important;
+
+  }
+
+
+
 ul::first-letter{
     font-size: 34px;
 }
