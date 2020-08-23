@@ -16,7 +16,7 @@ body{
   box-shadow: 2px 10px 10px 10px #00FFFF;
   margin-left: 12%;
   margin-right: 12%;
-  font-size: 24px;
+  font-size: 24vw;
   opacity: 1;
   //background-image: linear-gradient(to right,#D16BA5,#86A8E7,#5FFBF1);
 }
