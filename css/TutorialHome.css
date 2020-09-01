@@ -120,7 +120,7 @@ font-style: italic;}
   0%   {background-color:red; left:0%; top:0px;}
   25%  {background-color:yellow; left:25%; top:0px;}
   50%  {background-color:blue; left:50%; top:00px;}
-  75%  {background-color:green; left:75%; top:00px;}
-/*   100% {background-color:red; right:10%; top:0px;} */
+  75%  {background-color:green; left:65%; top:00px;}
+  100% {background-color:red; right:77%; top:0px;}
 
 }
