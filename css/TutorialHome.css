@@ -117,10 +117,10 @@ font-style: italic;}
 }
 
 @keyframes slider {
-  0%   {background-color:red; left:0px; top:0px;}
-  25%  {background-color:yellow; left:250px; top:0px;}
-  50%  {background-color:blue; left:500px; top:00px;}
-  75%  {background-color:green; left:750px; top:00px;}
-  100% {background-color:red; left:84.3%; top:0px;}
+  0%   {background-color:red; left:0%; top:0px;}
+  25%  {background-color:yellow; left:25%; top:0px;}
+  50%  {background-color:blue; left:50%; top:00px;}
+  75%  {background-color:green; left:75%; top:00px;}
+  100% {background-color:red; left:100%; top:0px;}
 
 }
